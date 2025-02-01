@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Astro</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+          <a class="logo1" href="/">Melo</a>
+          <div class="mobile-menu1">
+              <div class="line11"></div>
+              <div class="line21"></div>
+              <div class="line31"></div>
+          </div>
+          <ul class="nav-list1">
+              <li><a href="#inicio">Início</a></li>
+              <li><a href="#sobre">Eu</a></li>
+              <li><a href="#localizacao">Conquistas</a></li>
+              <li><a href="#contato"></a></li>
+          </ul>
+      </nav>
+  </header>
+  
+    <main>
+      <!-- Seção Início -->
+      <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1> <span>Astro Profile</span></h1>
+            <p>Kaique Melo</p>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+    
+
+      <!-- Seção Sobre -->
+      <section id="sobre" class="about">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>Astro</h2>
+                    <p>
+                        Kaique melo, mais conhecido como "Melo Astro" é um jovem talento de apenas 16 anos, está conquistando Brasília e as redes sociais com seu basquete impressionante. Com dribles rápidos, enterradas explosivas e uma visão de jogo diferenciada, ele viralizou na internet, chamando a atenção de fãs e olheiros. Treinando incansavelmente nas quadras da capital, Melo sonha em levar seu talento para o cenário profissional e representar o Brasil no esporte que ama. Seu nome já ecoa como a próxima grande promessa do basquete da capital.
+
+
+                    </p>
+            </div>
+            <div class="about-image">
+                <img src="defesa.jpg" alt="Interior da the Old">
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="about">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>Premios</h2>
+                    <p>
+                        Premios conquistados: <br>
+                        destaque federação sub 14 2022 <br>
+                        mvp copa anapolis 2023 <br>
+                        3° lugar em roubos de bola na federação 2024 <br>
+
+                    </p>
+            </div>
+            <div class="about-image">
+                <img src="mao na cintura.jpg" alt="Interior da the Old">
+            </div>
+        </div>
+    </section>
+    
+
+
+      <!-- Seção Produtos -->
+      <section id="produtos" class="products">
+        <div class="products-header">
+            <h2>Meus Feitos</h2>
+            <p>Feitos</p>
+        </div>
+        <div class="product-grid">
+            <div class="product-item">
+                <img src="dunk duas maos.jpg" alt="Pão Francês">
+                <div class="product-info">
+                    <h3>lider em pontos do vizi no CBI sub 16 </h3>
+                    <p>Jogando no maior campeonato de base </p>
+                    <button class="btn-detalhes" data-name="Trabalho arduo" data-desc="Campeonato Brasileiro Interclubes" data-img="exemplo">Ver Mais</button>
+                </div>
+            </div>
+            
+            <div class="product-item">
+                <img src="numero da blusa.jpg" alt="Doces">
+                <div class="product-info">
+                    <h3>10° lugar CBI sub 19 (com 16 anos)</h3>
+                    <p>Novamente se destacando varias categorias a cima</p>
+                    <button class="btn-detalhes" data-name="Vitoria!!" data-desc="Vencendo umas categorias a cima" data-img="opr">Ver Mais</button>
+                </div>
+            </div>
+            <div class="product-item">
+                <img src="dunk uma mao.jpg" alt="Doces">
+                <div class="product-info">
+                    <h3>lider em pontos do vizi no CBI sub 16 </h3>
+                    <p>CBI ja virou facil</p>
+                    <button class="btn-detalhes" data-name="Nascido para brilhar" data-desc="Mais um vez liderando" data-img="oportunidades">Ver Mais</button>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Modal para detalhes do produto -->
+        <div class="product-modal" id="product-modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <img src="" alt="" id="modal-img">
+                <h3 id="modal-title"></h3>
+                <p id="modal-desc"></p>
+            </div>
+        </div>
+    </section>
+    
+
+     
+    
+    <script src="cu.js"></script>
+  </body>
+</html>
